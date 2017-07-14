@@ -27,10 +27,6 @@ mailbox_attachments/
 config/
 data/
 cyphon/custom/
-cyphon/cyphon/settings/base.py
-cyphon/cyphon/settings/conf.py
-cyphon/cyphon/settings/dev.py
-cyphon/cyphon/settings/prod.py
 keys/
 kibana/
 logs/
