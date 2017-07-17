@@ -34,7 +34,7 @@ import requests
 
 
 ON_EC2 = False
-if os.path.exists('/sys/hypervisor/uuid'):
+if os.path.exists('/sys/hypervisor/uuid'):  # pragma: no cover
     with io.open('/sys/hypervisor/uuid', 'r') as f:
         if f.read().startswith('ec2'):
             try:
