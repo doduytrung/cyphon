@@ -2,6 +2,7 @@
 omit =
   */tests/*
   */migrations/*
+  */settings/*
 source =
   .
 
@@ -14,6 +15,7 @@ exclude_lines =
 omit =
   */tests/*
   */migrations/*
+  */settings/*
 
 [paths]
 source =
